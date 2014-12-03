@@ -43,6 +43,11 @@ public class Test implements Serializable {
 		user.setPassword("password");
 		user.setName("user");
 
+		User user2 = new User();
+		user.setLogin("mar");
+		user.setPassword("pwd");
+		user.setName("marwa");
+
 		Stadium stadium = new Stadium();
 		stadium.setLibele("marsa");
 
